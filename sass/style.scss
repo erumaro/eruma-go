@@ -1,0 +1,47 @@
+/*!
+Theme Name: eruma-go
+Theme URI: https://github.com/erumaro/eruma-go
+Author: Tobias Årud
+Author URI: https://github.com/erumaro
+Description: New theme for eruma.se
+Version: 1.0.0
+Text Domain: eruma-go
+Tags: accessibility-ready, custom-background, custom-header, custom-menu, custom-logo, featured-image-header, featured-images, 
+footer-widgets, full-width-template, theme-options, threaded-comments, translation-ready, portfolio, blog
+
+eruma-roku is based on Underscores https://underscores.me/, (C) 2012-2017 Automattic, Inc.
+Underscores is distributed under the terms of the GNU GPL v2 or later.
+
+Normalizing styles have been helped along thanks to the fine work of
+Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
+
+Version 1.0.0 of this theme uses Bootstrap as a base CSS Framework. Customized content and unique styles are found here!
+*/
+
+$falured: #771414;
+
+.site-footer{
+    background: rgba($falured, 0.8);
+    color: #fff;
+}
+
+.menu-item > a {
+    display: block;
+    padding: .5rem 1rem;
+}
+
+.navbar-nav .menu-item > a {
+    padding-right: 0;
+    padding-left: 0;
+}
+
+.navbar-dark .navbar-nav .menu-item > a {
+    color: rgba(255,255,255,.5);
+}
+
+@media (min-width: 992px){
+    .navbar-expand-lg .navbar-nav .menu-item > a {
+        padding-right: .5rem;
+        padding-left: .5rem;
+    }
+}
